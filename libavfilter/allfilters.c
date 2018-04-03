@@ -170,6 +170,7 @@ static void register_all(void)
     REGISTER_FILTER(CONVOLUTION,    convolution,    vf);
     REGISTER_FILTER(CONVOLVE,       convolve,       vf);
     REGISTER_FILTER(COPY,           copy,           vf);
+    REGISTER_FILTER(MYSAMPLE,       mysample,       vf);
     REGISTER_FILTER(COREIMAGE,      coreimage,      vf);
     REGISTER_FILTER(COVER_RECT,     cover_rect,     vf);
     REGISTER_FILTER(CROP,           crop,           vf);
